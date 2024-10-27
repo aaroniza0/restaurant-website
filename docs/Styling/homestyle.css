@@ -35,6 +35,9 @@ body {
   text-decoration: none;
   font-size: 2rem;
 }
+.li-link-text:visited {
+  color: black;
+}
 .main-content-container {
   /* background-image: url(burger.jpg);
   background-repeat: no-repeat; */
