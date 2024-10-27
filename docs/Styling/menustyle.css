@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; /*centers text horizontally*/
+  background-color: orange;
+  padding: 1.5rem;
+}
+.header-element {
+  font-size: 4rem;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.li-container {
+  list-style-type: none;
+  display: flex;
+}
+.li-element {
+  margin: 1rem;
+}
+.li-link-text {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+.li-link-text:visited {
+  color: black;
+}
+
+.menu-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  font-size: 4rem;
+}
+
+.main-content-container {
+  background-color: rgb(255, 230, 184);
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.menu-table-container {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.menu-row-1 {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+.table-burger-header,
+.table-sandwiches-header,
+.table-barbecue-header,
+.table-beverages-header {
+  text-decoration: underline;
+  font-size: 3rem;
+}
+.table-burger-data,
+.table-sandwiches-data,
+.table-barbecue-data,
+.table-beverages-data {
+  font-size: 2rem;
+}
+.table-burger-container,
+.table-sandwich-container,
+.table-barbecue-container,
+.table-beverages-container {
+  margin: 2rem;
+}
+.menu-row-2 {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+.footer-container {
+  background-color: orange;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+.google-map {
+  margin-right: 0;
+  margin-left: 0;
+  border-radius: 1rem;
+  width: 35%;
+}
+.miscellaneous-info {
+  display: flex;
+  padding: 1rem;
+  /* margin-right:0;
+  margin-left:0; */
+}
+
+.address-container {
+  margin-right: 1rem;
+  text-align: center;
+}
+.hours-of-op-container {
+  margin-left: 1rem;
+}
+.hours-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hours-header-text {
+  text-align: center;
+  margin-right: 0;
+  padding-right: 0;
+}
+.address-header-text,
+.hours-header-text {
+  text-decoration: underline;
+}
+.address-header-text,
+.hours-header-text,
+.address-location-text,
+.days-text {
+  font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+  .footer-container .google-map {
+    width: 75%;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /*centers text horizontally*/
+    background-color: orange;
+    padding: 1.5rem;
+  }
+  .header-element{
+    text-align: center;
+  }
+  .menu-table-container {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 75%;
+  }
+  .menu-text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+  }
+  .table-burger-container,
+  .table-sandwich-cell,
+  .table-barbecue-container,
+  .table-beverages-container {
+    margin: 1rem;
+  }
+  .address-header-text,
+  .hours-header-text {
+    font-size:1.5rem;
+  }
+  .address-location-text,
+  .days-text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 675px) {
+  .footer-container .google-map {
+    width: 75%;
+  }
+  .header-container {
+    flex-direction: column;
+    align-items: center; /*centers text horizontally*/
+    background-color: orange;
+    padding: 1.5rem;
+  }
+  .main-content-container {
+    height: 250vh;
+  }
+  .menu-row-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-row-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .address-header-text,
+  .hours-header-text {
+    font-size:1.5rem;
+  }
+  .address-location-text,
+  .days-text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 391px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*centers text horizontally*/
+  }
+  .main-content-container {
+    height: 300vh;
+  }
+  .address-header-text,
+  .hours-header-text {
+    font-size:1.5rem;
+  }
+  .address-location-text,
+  .days-text {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.header-container {
+  background-color: lightblue;
+  margin: 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+}
+.website-header {
+  position: relative;
+}
+.unordered-list-container {
+  display: flex;
+}
+.section-header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.section1-container {
+  display: inline-block;
+  width: 45%;
+  margin: 2rem;
+}
+.section2-container {
+  display: inline-block;
+  width: 45%;
+  margin: 2rem;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  padding: 2rem;
+}

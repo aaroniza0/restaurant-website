@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", sans-serif;
+}
+body {
+  background-image: url(burger.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; /*centers text horizontally*/
+  background-color: orange;
+  padding: 1.5rem;
+}
+.header-element {
+  font-size: 4rem;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.li-container {
+  list-style-type: none;
+  display: flex;
+}
+.li-element {
+  margin: 1rem;
+}
+.li-link-text {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.main-content-container {
+  /* background-image: url(burger.jpg);
+  background-repeat: no-repeat; */
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0rem;
+  height: 80vh;
+}
+.intro-container {
+  width: 75%;
+  margin-bottom: 0;
+}
+.intro-text {
+  margin-bottom: 0;
+}
+/* .page-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url(burger.JPG);
+} */
+.intro-text {
+  color: white;
+  font-size: 2.5rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  border-radius: 1rem;
+  border: 1rem solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 1rem 1.5rem 0 rgba(0, 0, 0, 0.5);
+}
+.footer-container {
+  background-color: orange;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  bottom: 0rem;
+}
+
+.google-map {
+  border-radius: 1rem;
+  width: 35%;
+}
+
+.miscellaneous-info {
+  display: flex;
+  padding: 1rem;
+}
+.address-header-text,
+.hours-header-text {
+  text-decoration: underline;
+  font-size: 2rem;
+}
+.address-container {
+  margin-right: 1cap;
+  text-align: center;
+}
+.hours-of-op-container {
+  margin-left: 1rem;
+}
+.address-location-text,
+.days-text {
+  font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+  .footer-container .google-map {
+    width: 75%;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /*centers text horizontally*/
+    background-color: orange;
+    padding: 1.5rem;
+  }
+  .header-element {
+    text-align: center;
+  }
+  .intro-text {
+    font-size: 2rem;
+  }
+  .address-location-text,
+  .days-text {
+    font-size: 1rem;
+  }
+  .address-header-text,
+  .hours-header-text {
+    font-size:1.5rem;
+  }
+  .address-location-text,
+  .days-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container .google-map {
+    width: 75%;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /*centers text horizontally*/
+    background-color: orange;
+    padding: 1.5rem;
+  }
+  .main-content-container {
+    height: 150vh;
+  }
+  .address-header-text,
+  .hours-header-text {
+    font-size:1.5rem;
+  }
+  .address-location-text,
+  .days-text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 376px) {
+  .main-content-container {
+    height: 200vh;
+  }
+  .address-header-text,
+  .hours-header-text {
+    font-size:1.5rem;
+  }
+  .address-location-text,
+  .days-text {
+    font-size: 1rem;
+  }
+}
