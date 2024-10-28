@@ -5,7 +5,7 @@
   font-family: "Indie Flower", sans-serif;
 }
 body {
-  background-image: url(burger.jpg);
+  background-image: url("burger.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -73,10 +73,9 @@ body {
   border-radius: 1rem;
   border: 1rem solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 1rem 1.5rem 0 rgba(0, 0, 0, 0.5); */
-  background-color:white;
-  padding:1rem;
-  border-radius:1rem;
-
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 .footer-container {
   background-color: orange;
@@ -139,7 +138,7 @@ body {
   }
   .address-header-text,
   .hours-header-text {
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
   .address-location-text,
   .days-text {
@@ -164,7 +163,7 @@ body {
   }
   .address-header-text,
   .hours-header-text {
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
   .address-location-text,
   .days-text {
@@ -177,7 +176,7 @@ body {
   }
   .address-header-text,
   .hours-header-text {
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
   .address-location-text,
   .days-text {
